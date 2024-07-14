@@ -1,0 +1,1 @@
+# cypress-image-snapshot--issue
