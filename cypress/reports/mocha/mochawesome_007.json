@@ -1,0 +1,270 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 7,
+    "passes": 0,
+    "pending": 0,
+    "failures": 7,
+    "start": "2024-07-11T19:27:18.993Z",
+    "end": "2024-07-11T19:27:21.516Z",
+    "duration": 2523,
+    "testsRegistered": 7,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "bd170241-c1ca-40a6-a1bf-2de96a36c542",
+      "title": "",
+      "fullFile": "cypress\\integration\\cmp\\test-component.ts",
+      "file": "cypress\\integration\\cmp\\test-component.ts",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "43eefa1d-f847-4a93-87d6-b4ae79b79358",
+          "title": "Toyota - DEV - Electron - test",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "7c8fe16a-e516-44dd-b15d-61a13ee790f5",
+              "title": "already taken snapshot",
+              "fullFile": "",
+              "file": "",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "should match on xs with 2 25 75 column layout",
+                  "fullTitle": "Toyota - DEV - Electron - test already taken snapshot should match on xs with 2 25 75 column layout",
+                  "timedOut": null,
+                  "duration": 579,
+                  "state": "failed",
+                  "speed": null,
+                  "pass": false,
+                  "fail": true,
+                  "pending": false,
+                  "context": "{\n  \"title\": \"cypress-mochawesome-reporter-videos-failed\",\n  \"value\": \"cypress\\\\integration\\\\cmp\\\\test-component.ts\"\n}",
+                  "code": "cy.takeSnapshot({\n    viewport: viewport,\n    element: `#column-${columnLayout}`,\n});",
+                  "err": {
+                    "message": "TypeError: cy.getElement(...).matchImageSnapshot is not a function",
+                    "estack": "TypeError: cy.getElement(...).matchImageSnapshot is not a function\n    at Context.eval (webpack://cypress-example-e2e-snapshots/./cypress/support/commands/takeSnapshot.ts:16:0)",
+                    "diff": null
+                  },
+                  "uuid": "62bce878-bd5a-4e7f-b750-1539b8ede680",
+                  "parentUUID": "7c8fe16a-e516-44dd-b15d-61a13ee790f5",
+                  "isHook": false,
+                  "skipped": false
+                },
+                {
+                  "title": "should match on sm with 2 25 75 column layout",
+                  "fullTitle": "Toyota - DEV - Electron - test already taken snapshot should match on sm with 2 25 75 column layout",
+                  "timedOut": null,
+                  "duration": 42,
+                  "state": "failed",
+                  "speed": null,
+                  "pass": false,
+                  "fail": true,
+                  "pending": false,
+                  "context": "{\n  \"title\": \"cypress-mochawesome-reporter-videos-failed\",\n  \"value\": \"cypress\\\\integration\\\\cmp\\\\test-component.ts\"\n}",
+                  "code": "cy.takeSnapshot({\n    viewport: viewport,\n    element: `#column-${columnLayout}`,\n});",
+                  "err": {
+                    "message": "TypeError: cy.getElement(...).matchImageSnapshot is not a function",
+                    "estack": "TypeError: cy.getElement(...).matchImageSnapshot is not a function\n    at Context.eval (webpack://cypress-example-e2e-snapshots/./cypress/support/commands/takeSnapshot.ts:16:0)",
+                    "diff": null
+                  },
+                  "uuid": "f2493c22-aafb-48da-8405-7c0822b73c4c",
+                  "parentUUID": "7c8fe16a-e516-44dd-b15d-61a13ee790f5",
+                  "isHook": false,
+                  "skipped": false
+                },
+                {
+                  "title": "should match on md with 2 25 75 column layout",
+                  "fullTitle": "Toyota - DEV - Electron - test already taken snapshot should match on md with 2 25 75 column layout",
+                  "timedOut": null,
+                  "duration": 9,
+                  "state": "failed",
+                  "speed": null,
+                  "pass": false,
+                  "fail": true,
+                  "pending": false,
+                  "context": "{\n  \"title\": \"cypress-mochawesome-reporter-videos-failed\",\n  \"value\": \"cypress\\\\integration\\\\cmp\\\\test-component.ts\"\n}",
+                  "code": "cy.takeSnapshot({\n    viewport: viewport,\n    element: `#column-${columnLayout}`,\n});",
+                  "err": {
+                    "message": "TypeError: cy.getElement(...).matchImageSnapshot is not a function",
+                    "estack": "TypeError: cy.getElement(...).matchImageSnapshot is not a function\n    at Context.eval (webpack://cypress-example-e2e-snapshots/./cypress/support/commands/takeSnapshot.ts:16:0)",
+                    "diff": null
+                  },
+                  "uuid": "bca5a532-b261-424f-abe8-3d10b0039225",
+                  "parentUUID": "7c8fe16a-e516-44dd-b15d-61a13ee790f5",
+                  "isHook": false,
+                  "skipped": false
+                },
+                {
+                  "title": "should match on lg with 2 25 75 column layout",
+                  "fullTitle": "Toyota - DEV - Electron - test already taken snapshot should match on lg with 2 25 75 column layout",
+                  "timedOut": null,
+                  "duration": 11,
+                  "state": "failed",
+                  "speed": null,
+                  "pass": false,
+                  "fail": true,
+                  "pending": false,
+                  "context": "{\n  \"title\": \"cypress-mochawesome-reporter-videos-failed\",\n  \"value\": \"cypress\\\\integration\\\\cmp\\\\test-component.ts\"\n}",
+                  "code": "cy.takeSnapshot({\n    viewport: viewport,\n    element: `#column-${columnLayout}`,\n});",
+                  "err": {
+                    "message": "TypeError: cy.getElement(...).matchImageSnapshot is not a function",
+                    "estack": "TypeError: cy.getElement(...).matchImageSnapshot is not a function\n    at Context.eval (webpack://cypress-example-e2e-snapshots/./cypress/support/commands/takeSnapshot.ts:16:0)",
+                    "diff": null
+                  },
+                  "uuid": "aa2c009d-d556-4de8-91d3-51b159f6dfb9",
+                  "parentUUID": "7c8fe16a-e516-44dd-b15d-61a13ee790f5",
+                  "isHook": false,
+                  "skipped": false
+                },
+                {
+                  "title": "should match on xl with 2 25 75 column layout",
+                  "fullTitle": "Toyota - DEV - Electron - test already taken snapshot should match on xl with 2 25 75 column layout",
+                  "timedOut": null,
+                  "duration": 8,
+                  "state": "failed",
+                  "speed": null,
+                  "pass": false,
+                  "fail": true,
+                  "pending": false,
+                  "context": "{\n  \"title\": \"cypress-mochawesome-reporter-videos-failed\",\n  \"value\": \"cypress\\\\integration\\\\cmp\\\\test-component.ts\"\n}",
+                  "code": "cy.takeSnapshot({\n    viewport: viewport,\n    element: `#column-${columnLayout}`,\n});",
+                  "err": {
+                    "message": "TypeError: cy.getElement(...).matchImageSnapshot is not a function",
+                    "estack": "TypeError: cy.getElement(...).matchImageSnapshot is not a function\n    at Context.eval (webpack://cypress-example-e2e-snapshots/./cypress/support/commands/takeSnapshot.ts:16:0)",
+                    "diff": null
+                  },
+                  "uuid": "4c1ce882-fe80-4967-9377-9e97feee6c65",
+                  "parentUUID": "7c8fe16a-e516-44dd-b15d-61a13ee790f5",
+                  "isHook": false,
+                  "skipped": false
+                },
+                {
+                  "title": "should match on xxl with 2 25 75 column layout",
+                  "fullTitle": "Toyota - DEV - Electron - test already taken snapshot should match on xxl with 2 25 75 column layout",
+                  "timedOut": null,
+                  "duration": 8,
+                  "state": "failed",
+                  "speed": null,
+                  "pass": false,
+                  "fail": true,
+                  "pending": false,
+                  "context": "{\n  \"title\": \"cypress-mochawesome-reporter-videos-failed\",\n  \"value\": \"cypress\\\\integration\\\\cmp\\\\test-component.ts\"\n}",
+                  "code": "cy.takeSnapshot({\n    viewport: viewport,\n    element: `#column-${columnLayout}`,\n});",
+                  "err": {
+                    "message": "TypeError: cy.getElement(...).matchImageSnapshot is not a function",
+                    "estack": "TypeError: cy.getElement(...).matchImageSnapshot is not a function\n    at Context.eval (webpack://cypress-example-e2e-snapshots/./cypress/support/commands/takeSnapshot.ts:16:0)",
+                    "diff": null
+                  },
+                  "uuid": "0193a5af-d3ab-4486-aec7-7c73805d168f",
+                  "parentUUID": "7c8fe16a-e516-44dd-b15d-61a13ee790f5",
+                  "isHook": false,
+                  "skipped": false
+                },
+                {
+                  "title": "should match on xxxl with 2 25 75 column layout",
+                  "fullTitle": "Toyota - DEV - Electron - test already taken snapshot should match on xxxl with 2 25 75 column layout",
+                  "timedOut": null,
+                  "duration": 24,
+                  "state": "failed",
+                  "speed": null,
+                  "pass": false,
+                  "fail": true,
+                  "pending": false,
+                  "context": "{\n  \"title\": \"cypress-mochawesome-reporter-videos-failed\",\n  \"value\": \"cypress\\\\integration\\\\cmp\\\\test-component.ts\"\n}",
+                  "code": "cy.takeSnapshot({\n    viewport: viewport,\n    element: `#column-${columnLayout}`,\n});",
+                  "err": {
+                    "message": "TypeError: cy.getElement(...).matchImageSnapshot is not a function",
+                    "estack": "TypeError: cy.getElement(...).matchImageSnapshot is not a function\n    at Context.eval (webpack://cypress-example-e2e-snapshots/./cypress/support/commands/takeSnapshot.ts:16:0)",
+                    "diff": null
+                  },
+                  "uuid": "4845f303-90d5-42c1-b1f4-765d06975c47",
+                  "parentUUID": "7c8fe16a-e516-44dd-b15d-61a13ee790f5",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [],
+              "failures": [
+                "62bce878-bd5a-4e7f-b750-1539b8ede680",
+                "f2493c22-aafb-48da-8405-7c0822b73c4c",
+                "bca5a532-b261-424f-abe8-3d10b0039225",
+                "aa2c009d-d556-4de8-91d3-51b159f6dfb9",
+                "4c1ce882-fe80-4967-9377-9e97feee6c65",
+                "0193a5af-d3ab-4486-aec7-7c73805d168f",
+                "4845f303-90d5-42c1-b1f4-765d06975c47"
+              ],
+              "pending": [],
+              "skipped": [],
+              "duration": 681,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "useInlineDiffs": true,
+        "embeddedScreenshots": true,
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

@@ -1,0 +1,270 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 7,
+    "passes": 0,
+    "pending": 0,
+    "failures": 7,
+    "start": "2024-07-11T19:34:04.808Z",
+    "end": "2024-07-11T19:34:06.849Z",
+    "duration": 2041,
+    "testsRegistered": 7,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "e8ce2344-fe37-4a55-8d2b-57210923eca1",
+      "title": "",
+      "fullFile": "cypress\\integration\\cmp\\test-component.ts",
+      "file": "cypress\\integration\\cmp\\test-component.ts",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "6892ab2a-12d4-49ec-84f0-5ca6083bb69c",
+          "title": "Toyota - DEV - Firefox - test",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "81d8a37a-89cd-4cd9-aa45-ccf64abd544c",
+              "title": "already taken snapshot",
+              "fullFile": "",
+              "file": "",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "should match on xs with 2 25 75 column layout",
+                  "fullTitle": "Toyota - DEV - Firefox - test already taken snapshot should match on xs with 2 25 75 column layout",
+                  "timedOut": null,
+                  "duration": 427,
+                  "state": "failed",
+                  "speed": null,
+                  "pass": false,
+                  "fail": true,
+                  "pending": false,
+                  "context": "{\n  \"title\": \"cypress-mochawesome-reporter-videos-failed\",\n  \"value\": \"cypress\\\\integration\\\\cmp\\\\test-component.ts\"\n}",
+                  "code": "cy.takeSnapshot({\n    viewport: viewport,\n    element: `#column-${columnLayout}`,\n});",
+                  "err": {
+                    "message": "TypeError: cy.getElement(...).matchImageSnapshot is not a function",
+                    "estack": "TypeError: cy.getElement(...).matchImageSnapshot is not a function\nat ./cypress/support/commands/takeSnapshot.ts/ (webpack://cypress-example-e2e-snapshots/./cypress/support/commands/takeSnapshot.ts:16:0)\nat getRet (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:118808:20)\nat tryCatcher (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:1807:23)\nat __webpack_modules__</module.exports/Promise.try (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:4315:29)\nat thenFn (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:118819:60)\nat then (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:119070:21)\nat wrapped (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:138021:19)\nat __webpack_modules__</runCommand (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:143935:15)\nat tryCatcher (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:1807:23)\nat __webpack_modules__</module.exports/Promise.prototype._settlePromiseFromHandler (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:1519:31)\nat __webpack_modules__</module.exports/Promise.prototype._settlePromise (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:1576:18)\nat __webpack_modules__</module.exports/Promise.prototype._settlePromiseCtx (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:1613:10)\nat _drainQueueStep (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:2411:12)\nat _drainQueue (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:2400:24)\nat __webpack_modules__</Async.prototype._drainQueues (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:2416:16)\nat __webpack_modules__</Async/this.drainQueues (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:2286:14)",
+                    "diff": null
+                  },
+                  "uuid": "4c4b69e3-a203-4c1f-b958-835c095f6fb8",
+                  "parentUUID": "81d8a37a-89cd-4cd9-aa45-ccf64abd544c",
+                  "isHook": false,
+                  "skipped": false
+                },
+                {
+                  "title": "should match on sm with 2 25 75 column layout",
+                  "fullTitle": "Toyota - DEV - Firefox - test already taken snapshot should match on sm with 2 25 75 column layout",
+                  "timedOut": null,
+                  "duration": 14,
+                  "state": "failed",
+                  "speed": null,
+                  "pass": false,
+                  "fail": true,
+                  "pending": false,
+                  "context": "{\n  \"title\": \"cypress-mochawesome-reporter-videos-failed\",\n  \"value\": \"cypress\\\\integration\\\\cmp\\\\test-component.ts\"\n}",
+                  "code": "cy.takeSnapshot({\n    viewport: viewport,\n    element: `#column-${columnLayout}`,\n});",
+                  "err": {
+                    "message": "TypeError: cy.getElement(...).matchImageSnapshot is not a function",
+                    "estack": "TypeError: cy.getElement(...).matchImageSnapshot is not a function\nat ./cypress/support/commands/takeSnapshot.ts/ (webpack://cypress-example-e2e-snapshots/./cypress/support/commands/takeSnapshot.ts:16:0)\nat getRet (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:118808:20)\nat tryCatcher (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:1807:23)\nat __webpack_modules__</module.exports/Promise.try (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:4315:29)\nat thenFn (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:118819:60)\nat then (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:119070:21)\nat wrapped (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:138021:19)\nat __webpack_modules__</runCommand (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:143935:15)\nat tryCatcher (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:1807:23)\nat __webpack_modules__</module.exports/Promise.prototype._settlePromiseFromHandler (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:1519:31)\nat __webpack_modules__</module.exports/Promise.prototype._settlePromise (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:1576:18)\nat __webpack_modules__</module.exports/Promise.prototype._settlePromiseCtx (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:1613:10)\nat _drainQueueStep (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:2411:12)\nat _drainQueue (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:2400:24)\nat __webpack_modules__</Async.prototype._drainQueues (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:2416:16)\nat __webpack_modules__</Async/this.drainQueues (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:2286:14)",
+                    "diff": null
+                  },
+                  "uuid": "efceb40b-b6f4-4ccf-9947-a12f012de975",
+                  "parentUUID": "81d8a37a-89cd-4cd9-aa45-ccf64abd544c",
+                  "isHook": false,
+                  "skipped": false
+                },
+                {
+                  "title": "should match on md with 2 25 75 column layout",
+                  "fullTitle": "Toyota - DEV - Firefox - test already taken snapshot should match on md with 2 25 75 column layout",
+                  "timedOut": null,
+                  "duration": 30,
+                  "state": "failed",
+                  "speed": null,
+                  "pass": false,
+                  "fail": true,
+                  "pending": false,
+                  "context": "{\n  \"title\": \"cypress-mochawesome-reporter-videos-failed\",\n  \"value\": \"cypress\\\\integration\\\\cmp\\\\test-component.ts\"\n}",
+                  "code": "cy.takeSnapshot({\n    viewport: viewport,\n    element: `#column-${columnLayout}`,\n});",
+                  "err": {
+                    "message": "TypeError: cy.getElement(...).matchImageSnapshot is not a function",
+                    "estack": "TypeError: cy.getElement(...).matchImageSnapshot is not a function\nat ./cypress/support/commands/takeSnapshot.ts/ (webpack://cypress-example-e2e-snapshots/./cypress/support/commands/takeSnapshot.ts:16:0)\nat getRet (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:118808:20)\nat tryCatcher (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:1807:23)\nat __webpack_modules__</module.exports/Promise.try (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:4315:29)\nat thenFn (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:118819:60)\nat then (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:119070:21)\nat wrapped (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:138021:19)\nat __webpack_modules__</runCommand (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:143935:15)\nat tryCatcher (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:1807:23)\nat __webpack_modules__</module.exports/Promise.prototype._settlePromiseFromHandler (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:1519:31)\nat __webpack_modules__</module.exports/Promise.prototype._settlePromise (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:1576:18)\nat __webpack_modules__</module.exports/Promise.prototype._settlePromiseCtx (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:1613:10)\nat _drainQueueStep (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:2411:12)\nat _drainQueue (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:2400:24)\nat __webpack_modules__</Async.prototype._drainQueues (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:2416:16)\nat __webpack_modules__</Async/this.drainQueues (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:2286:14)",
+                    "diff": null
+                  },
+                  "uuid": "b216afc3-159f-4d19-b94a-f951a7a69886",
+                  "parentUUID": "81d8a37a-89cd-4cd9-aa45-ccf64abd544c",
+                  "isHook": false,
+                  "skipped": false
+                },
+                {
+                  "title": "should match on lg with 2 25 75 column layout",
+                  "fullTitle": "Toyota - DEV - Firefox - test already taken snapshot should match on lg with 2 25 75 column layout",
+                  "timedOut": null,
+                  "duration": 42,
+                  "state": "failed",
+                  "speed": null,
+                  "pass": false,
+                  "fail": true,
+                  "pending": false,
+                  "context": "{\n  \"title\": \"cypress-mochawesome-reporter-videos-failed\",\n  \"value\": \"cypress\\\\integration\\\\cmp\\\\test-component.ts\"\n}",
+                  "code": "cy.takeSnapshot({\n    viewport: viewport,\n    element: `#column-${columnLayout}`,\n});",
+                  "err": {
+                    "message": "TypeError: cy.getElement(...).matchImageSnapshot is not a function",
+                    "estack": "TypeError: cy.getElement(...).matchImageSnapshot is not a function\nat ./cypress/support/commands/takeSnapshot.ts/ (webpack://cypress-example-e2e-snapshots/./cypress/support/commands/takeSnapshot.ts:16:0)\nat getRet (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:118808:20)\nat tryCatcher (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:1807:23)\nat __webpack_modules__</module.exports/Promise.try (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:4315:29)\nat thenFn (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:118819:60)\nat then (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:119070:21)\nat wrapped (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:138021:19)\nat __webpack_modules__</runCommand (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:143935:15)\nat tryCatcher (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:1807:23)\nat __webpack_modules__</module.exports/Promise.prototype._settlePromiseFromHandler (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:1519:31)\nat __webpack_modules__</module.exports/Promise.prototype._settlePromise (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:1576:18)\nat __webpack_modules__</module.exports/Promise.prototype._settlePromiseCtx (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:1613:10)\nat _drainQueueStep (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:2411:12)\nat _drainQueue (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:2400:24)\nat __webpack_modules__</Async.prototype._drainQueues (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:2416:16)\nat __webpack_modules__</Async/this.drainQueues (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:2286:14)",
+                    "diff": null
+                  },
+                  "uuid": "32067308-3326-417e-a835-159557721383",
+                  "parentUUID": "81d8a37a-89cd-4cd9-aa45-ccf64abd544c",
+                  "isHook": false,
+                  "skipped": false
+                },
+                {
+                  "title": "should match on xl with 2 25 75 column layout",
+                  "fullTitle": "Toyota - DEV - Firefox - test already taken snapshot should match on xl with 2 25 75 column layout",
+                  "timedOut": null,
+                  "duration": 28,
+                  "state": "failed",
+                  "speed": null,
+                  "pass": false,
+                  "fail": true,
+                  "pending": false,
+                  "context": "{\n  \"title\": \"cypress-mochawesome-reporter-videos-failed\",\n  \"value\": \"cypress\\\\integration\\\\cmp\\\\test-component.ts\"\n}",
+                  "code": "cy.takeSnapshot({\n    viewport: viewport,\n    element: `#column-${columnLayout}`,\n});",
+                  "err": {
+                    "message": "TypeError: cy.getElement(...).matchImageSnapshot is not a function",
+                    "estack": "TypeError: cy.getElement(...).matchImageSnapshot is not a function\nat ./cypress/support/commands/takeSnapshot.ts/ (webpack://cypress-example-e2e-snapshots/./cypress/support/commands/takeSnapshot.ts:16:0)\nat getRet (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:118808:20)\nat tryCatcher (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:1807:23)\nat __webpack_modules__</module.exports/Promise.try (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:4315:29)\nat thenFn (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:118819:60)\nat then (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:119070:21)\nat wrapped (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:138021:19)\nat __webpack_modules__</runCommand (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:143935:15)\nat tryCatcher (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:1807:23)\nat __webpack_modules__</module.exports/Promise.prototype._settlePromiseFromHandler (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:1519:31)\nat __webpack_modules__</module.exports/Promise.prototype._settlePromise (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:1576:18)\nat __webpack_modules__</module.exports/Promise.prototype._settlePromiseCtx (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:1613:10)\nat _drainQueueStep (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:2411:12)\nat _drainQueue (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:2400:24)\nat __webpack_modules__</Async.prototype._drainQueues (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:2416:16)\nat __webpack_modules__</Async/this.drainQueues (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:2286:14)",
+                    "diff": null
+                  },
+                  "uuid": "355fee2e-90f4-4d37-9e62-6d992afe2ca3",
+                  "parentUUID": "81d8a37a-89cd-4cd9-aa45-ccf64abd544c",
+                  "isHook": false,
+                  "skipped": false
+                },
+                {
+                  "title": "should match on xxl with 2 25 75 column layout",
+                  "fullTitle": "Toyota - DEV - Firefox - test already taken snapshot should match on xxl with 2 25 75 column layout",
+                  "timedOut": null,
+                  "duration": 19,
+                  "state": "failed",
+                  "speed": null,
+                  "pass": false,
+                  "fail": true,
+                  "pending": false,
+                  "context": "{\n  \"title\": \"cypress-mochawesome-reporter-videos-failed\",\n  \"value\": \"cypress\\\\integration\\\\cmp\\\\test-component.ts\"\n}",
+                  "code": "cy.takeSnapshot({\n    viewport: viewport,\n    element: `#column-${columnLayout}`,\n});",
+                  "err": {
+                    "message": "TypeError: cy.getElement(...).matchImageSnapshot is not a function",
+                    "estack": "TypeError: cy.getElement(...).matchImageSnapshot is not a function\nat ./cypress/support/commands/takeSnapshot.ts/ (webpack://cypress-example-e2e-snapshots/./cypress/support/commands/takeSnapshot.ts:16:0)\nat getRet (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:118808:20)\nat tryCatcher (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:1807:23)\nat __webpack_modules__</module.exports/Promise.try (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:4315:29)\nat thenFn (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:118819:60)\nat then (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:119070:21)\nat wrapped (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:138021:19)\nat __webpack_modules__</runCommand (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:143935:15)\nat tryCatcher (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:1807:23)\nat __webpack_modules__</module.exports/Promise.prototype._settlePromiseFromHandler (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:1519:31)\nat __webpack_modules__</module.exports/Promise.prototype._settlePromise (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:1576:18)\nat __webpack_modules__</module.exports/Promise.prototype._settlePromiseCtx (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:1613:10)\nat _drainQueueStep (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:2411:12)\nat _drainQueue (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:2400:24)\nat __webpack_modules__</Async.prototype._drainQueues (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:2416:16)\nat __webpack_modules__</Async/this.drainQueues (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:2286:14)",
+                    "diff": null
+                  },
+                  "uuid": "d9511402-f746-4c8a-906b-131f13e328e7",
+                  "parentUUID": "81d8a37a-89cd-4cd9-aa45-ccf64abd544c",
+                  "isHook": false,
+                  "skipped": false
+                },
+                {
+                  "title": "should match on xxxl with 2 25 75 column layout",
+                  "fullTitle": "Toyota - DEV - Firefox - test already taken snapshot should match on xxxl with 2 25 75 column layout",
+                  "timedOut": null,
+                  "duration": 51,
+                  "state": "failed",
+                  "speed": null,
+                  "pass": false,
+                  "fail": true,
+                  "pending": false,
+                  "context": "{\n  \"title\": \"cypress-mochawesome-reporter-videos-failed\",\n  \"value\": \"cypress\\\\integration\\\\cmp\\\\test-component.ts\"\n}",
+                  "code": "cy.takeSnapshot({\n    viewport: viewport,\n    element: `#column-${columnLayout}`,\n});",
+                  "err": {
+                    "message": "TypeError: cy.getElement(...).matchImageSnapshot is not a function",
+                    "estack": "TypeError: cy.getElement(...).matchImageSnapshot is not a function\nat ./cypress/support/commands/takeSnapshot.ts/ (webpack://cypress-example-e2e-snapshots/./cypress/support/commands/takeSnapshot.ts:16:0)\nat getRet (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:118808:20)\nat tryCatcher (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:1807:23)\nat __webpack_modules__</module.exports/Promise.try (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:4315:29)\nat thenFn (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:118819:60)\nat then (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:119070:21)\nat wrapped (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:138021:19)\nat __webpack_modules__</runCommand (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:143935:15)\nat tryCatcher (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:1807:23)\nat __webpack_modules__</module.exports/Promise.prototype._settlePromiseFromHandler (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:1519:31)\nat __webpack_modules__</module.exports/Promise.prototype._settlePromise (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:1576:18)\nat __webpack_modules__</module.exports/Promise.prototype._settlePromiseCtx (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:1613:10)\nat _drainQueueStep (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:2411:12)\nat _drainQueue (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:2400:24)\nat __webpack_modules__</Async.prototype._drainQueues (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:2416:16)\nat __webpack_modules__</Async/this.drainQueues (https://basic-site-theta.vercel.app/__cypress/runner/cypress_runner.js:2286:14)",
+                    "diff": null
+                  },
+                  "uuid": "4071c5cc-b636-4184-9d9d-16a1a494be7b",
+                  "parentUUID": "81d8a37a-89cd-4cd9-aa45-ccf64abd544c",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [],
+              "failures": [
+                "4c4b69e3-a203-4c1f-b958-835c095f6fb8",
+                "efceb40b-b6f4-4ccf-9947-a12f012de975",
+                "b216afc3-159f-4d19-b94a-f951a7a69886",
+                "32067308-3326-417e-a835-159557721383",
+                "355fee2e-90f4-4d37-9e62-6d992afe2ca3",
+                "d9511402-f746-4c8a-906b-131f13e328e7",
+                "4071c5cc-b636-4184-9d9d-16a1a494be7b"
+              ],
+              "pending": [],
+              "skipped": [],
+              "duration": 611,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "useInlineDiffs": true,
+        "embeddedScreenshots": true,
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

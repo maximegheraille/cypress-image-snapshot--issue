@@ -1,0 +1,42 @@
+{
+  "name": "cypress-example-e2e-snapshots",
+  "version": "1.0.0",
+  "description": "End-to-end snapshots for Cypress",
+  "license": "UNLICENSED",
+  "packageManager": "pnpm@9.5.0+sha256.dbdf5961c32909fb030595a9daa1dae720162e658609a8f92f2fa99835510ca5",
+  "engines": {
+    "node": "^18 || ^20"
+  },
+  "scripts": {
+    "cypress:open": "cypress open --config-file cypress-base.config.ts",
+    "cypress:run": "cypress run --config-file cypress-base.config.ts --spec 'cypress/integration/cmp/test-component.ts' -b firefox",
+    "cypress:run:record": "cypress run --record",
+    "dev": "cypress:open --config-file cypress-base.config.ts"
+  },
+  "devDependencies": {
+    "@simonsmith/cypress-image-snapshot": "^9.0.3",
+    "@types/node": "^20.14.1",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "cypress": "13.13.0",
+    "cypress-mochawesome-reporter": "3.8.2",
+    "eslint": "^8.57.0",
+    "eslint-plugin-cypress": "^2.15.1",
+    "eslint-plugin-import": "^2.29.1",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.5",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^3.3.0",
+    "typescript": "5.4.5"
+  },
+  "dependencies": {
+    "axe-core": "4.9.1",
+    "cypress-axe": "1.5.0",
+    "cypress-multi-reporters": "1.6.4",
+    "cypress-real-events": "1.12.0",
+    "mocha": "10.4.0",
+    "mochawesome": "7.1.3",
+    "mochawesome-merge": "4.3.0",
+    "mochawesome-report-generator": "6.2.0",
+    "ts-node": "^10.9.2"
+  }
+}
